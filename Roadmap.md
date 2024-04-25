@@ -14,18 +14,18 @@ Set up Steps
     - Collect Sample Data to test with
 - Create Works Cited 
 
-- Evaluate and Transfer Provided Code (S) 
-    [D] for Weather API 
-    [D] for Earthquake 
-    [D] for algo unit test 
-[D] Write Sliding Average Algorithm 
-[D] Incorporate Sliding Algo Unit Tests
-[D] Take basic user input for n and API Key (not hard coded) 
+- Evaluate and Transfer Provided Code (S) <br />
+    [D] for Weather API <br />
+    [D] for Earthquake <br />
+    [D] for algo unit test <br />
+[D] Write Sliding Average Algorithm <br />
+[D] Incorporate Sliding Algo Unit Tests<br />
+[D] Take basic user input for n and API Key (not hard coded) <br />
 - Set up API Infrastructure (M)
-    [D] For Weather (S)
-    [D] For Earthquake 
+    [D] For Weather (S)<br />
+    [D] For Earthquake <br />
 [D] Implement Data Structure for earthquake 
-    - Store Name, Temp, timestamp, 
+    - Store Name, Temp, timestamp, <br />
 
 ## Remaining Work for next Iteration
 
@@ -55,7 +55,7 @@ Quality and Robustness Considerations [M]
 
 
 # Key for Estimates 
-S = Small, 10 mins
-M = Med, 30 mins 
-L = Large, 45-60mins or significant ramp up necessary
+S = Small, 10 mins <br />
+M = Med, 30 mins <br />
+L = Large, 45-60mins or significant ramp up necessary <br />
 [D] = Done, otherwise not done
