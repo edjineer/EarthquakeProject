@@ -51,12 +51,8 @@ def getEarthquakeAPI():
     # url = f"https://earthquake.usgs.gov/fdsnws/event/1/{method}?starttime={hourPrior}format=geojson"
     url = f"https://earthquake.usgs.gov/fdsnws/event/1/{method}?starttime={hourPrior}&format=geojson"
     response = json.loads(requests.request("GET", url).text)
-    print(response)
     eqClassList = createEQList(response["features"])
-    return
-    # Make a List out of the responses
-
-    # Populate the entry
+    return eqClassList
 
 
 if __name__ == "__main__":
@@ -65,6 +61,9 @@ if __name__ == "__main__":
             f"Not enough arguments passed in, only saw {len(sys.argv)}: must provide the n and an API key"
         )
     else:
-        # getWeatherAPIInfo(sys.argv[1], 0, 0)
         globals(sys.argv[1])
-        getEarthquakeAPI()
+        n = sys.argv[2]
+        eqClassList = getEarthquakeAPI()
+        print("EarthQuake Data from within the last hour:")
+        for i in eqClassList:
+            print(f"{i.title}, temp_f={i.temp}, avg of last {n}: TODO")
