@@ -21,20 +21,23 @@ Stretch: Constant updates
 S = Small, 10 mins
 M = Med, 30 mins 
 L = Large, 45-60mins or significant ramp up necessary
+[D] = Done, otherwise not done
 
 Development Milestones 
 - Evaluate and Transfer Provided Code (S) 
     [D] for Weather API 
     - for Earthquake 
-    - for algo unit test 
-- Write Sliding Average Algorithm 
-- Incorporate Sliding Algo Unit Tests 
+    [D] for algo unit test 
+[D] Write Sliding Average Algorithm 
+[D] Incorporate Sliding Algo Unit Tests
+[D] Take basic user input for n and API Key (not hard coded) 
 - Set up API Infrastructure (M)
-    - For Weather (S)
+    [D] For Weather (S)
     - For Earthquake 
 - Implement Data Structure for earthquake 
+    - Store Name, Temp, timestamp, 
 - 
-- Take user input (not hard coded)
+
     - Verify User Input 
 - Get Continuous Updates (M)
 - Refine Installation process for people who grab it 

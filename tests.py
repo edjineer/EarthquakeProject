@@ -2,7 +2,7 @@ import unittest
 from src.slidingAlgorithm import slidingAlgorithm
 
 
-class AlgoUnitTests(unittest.TestCase):
+class UnitTests(unittest.TestCase):
     def test_algo(self):
         """
         Use a list of values to make it clear that:
