@@ -58,7 +58,9 @@ def getEarthquakeAPI():
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print(
-            f"Not enough arguments passed in, only saw {len(sys.argv)}: must provide the n and an API key"
+            f"Not enough arguments passed in, only saw {len(sys.argv)}. ",
+            "There are two required arguments: the API key to https://www.weatherapi.com/, "
+            "and N where N is the number of earthquakes to consider in the sliding scale.",
         )
     else:
         globals(sys.argv[1])
